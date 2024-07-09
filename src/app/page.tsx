@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import ServerComponent from "./Component.server";
 import ImageUpload from "./ImageUpload"
 import WebpComponent from "./WebpComponent";
+import CompressorComponent from "./CompressorComponent";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Suspense>
       <ImageUpload />
       <WebpComponent />
+      <CompressorComponent />
     </div>
   );
 }
